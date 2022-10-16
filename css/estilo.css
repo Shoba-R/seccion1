@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Kanit:wght@300&family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Quicksand:wght@300&family=Roboto+Mono:wght@500&family=Roboto:wght@700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    margin: auto;
+    padding: 20px;
+} 
+ 
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    height:18px;
+    margin-bottom: 10px;
+    background-color: white;
+    vertical-align: middle;
+ 
+}
+h1{
+    width: 8px;
+    font-size:x-large;
+    font-weight: bold;
+    margin-left: 80px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration:solid;
+    color: darkolivegreen;
+}
+ul{
+    display: flex;
+    text-transform: uppercase;
+    list-style-type: none;
+    
+}
+li{
+    margin-left: 20px;
+    display: inline;
+   
+}
+.contenedor{
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 8px;
+    font-size: medium;
+
+}
+.seccion1{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(241, 231, 96);
+    height:90vh;
+    vertical-align: middle;
+    
+}
+.contenedor1{
+    
+    text-align:left;
+    padding-left: 2px;
+    margin-top:180px;
+    height: 40px;
+    margin-right: 50px;
+    margin-left: 30px;
+    justify-content: center;
+}
+.face{
+    margin-right: 7px;
+    color: black;
+}
+.link{
+    margin-right: 7px;
+    color: black;
+}
+.saludo{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 30px;   
+}
+@keyframes haceEscala {
+    0%{transform: scale(0.2);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+}
+.titulo{
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    font-size:80px;
+    margin-left: 0%;
+    color:rgb(40, 39, 39);
+    animation-name: haceEscala;
+    animation-duration: 3s;
+    
+}
+.lugar{
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 8%;
+    font-weight: bold;
+}
+.contacto{
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.btn{
+    border: 10px solid black;
+    background-color:rgb(40, 39, 39);
+    color: azure;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 40px;
+    overflow: hidden;
+}
+:hover.btn{
+  color: cadetblue;
+  text-decoration: none;
+  
+}
+
+.mifoto{
+    border-radius:80%;
+    border: 8px solid white;
+    margin-top: 120px;
+    margin-left: 140px;
+}
+.contenedor3{
+    position: absolute;
+    bottom: 2px; 
+}
+
+
